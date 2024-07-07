@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio Website </title>
+    <link rel="stylesheet" href="portfolio(4).css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/final logo (1).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>"Where Creativity Meets Code"</p>
+            <h1>Hi, I'm <span>Nikita Paul</span><br>from Bengaluru, India</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/final myphoto (2).jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Dynamic and resourceful Aerospace Engineering student equipped with a drive to keep learning. With a passion for innovation and a knack for problem-solving, I thrive in fast-paced environments where I can leverage my expertise in hardware and software integration, signal processing, and telecommunications to deliver exceptional results. with a passion for web development and design, combining my technical background with creativity, I love crafting beautiful, functional websites that provide great user experiences. Whether it's coding dynamic applications or designing sleek interfaces, I thrive on bringing ideas to life on the web. Explore my portfolio to see how I blend engineering precision with design flair!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Tools and Technologies</span><br>Programming languages: Python,html,css,c,Javascript,SQL<br>Tools: MATLAB,Autodesk,AutoCad,Fusion360</li>
+                        <li><span>Additional Skills</span><br>Professional SEO (search engine optimization) operator, Website developer and designer, Wordpress website designer, Blogger</li>
+                        <li><span>Interpersonal Skills</span><br>Communication, Leadership, Presentation, Critical Thinking, Teamwork, emotional intelligence, multitasker, problem solving abilities, versatility, Effective time management</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>July,2024 – Present, Bengaluru</span><br>Web development (Internship) at Prasunet Company</li>
+                        <li><span> (July2023-present, Bengaluru)</span><br>Web developer and designer<br>Blogger for my own website:(www.thecontourfashgion.com) and (www.theglobeglimpses.com).</li>
+                        <li><span>November,2022 – February 2024, Bengaluru</span><br>Brand Ambassador at Viral Fission</li>
+                        <li><span>August,2023-September,2023</span><br>Internship at Bosch Rexroth in Industrial Hydraulics and Pneumatics</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Dayananda Sagar University,Bangalore,Karnataka India</li>
+                        <li><span>2019-2021</span><br>Nucleus Education,Kota,Rajasthan</li>
+                        <li><span>2018-2019</span><br>Secondary from KV IOC Noonmati,Guwahati,Assam</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Designing and SEO optimization</h2>
+                <p>Have strong creativity skills with excellence in power point, Seo optimizations, digital marketing and social media marketing, brand promotion.<br>Have knowledge with WordPress websites and Elementor google website editor.</p>
+                <a href="https://thecontourfashion.com/">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Freelancing</h2>
+                <p>Blogger for my own website.<br>Partnered with other businesses to created joint promotional initiatives.<br>Content writing for Youtube Channel.</p>
+                <a href="https://www.youtube.com/@Felicia_arts">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Corporate Events Management</h2>
+                <p>Successful in consulting clients, managing budget, contacting guests and speakers, promoting the event.</p>
+                <a href="https://www.linkedin.com/in/nikita-paul-7b3572229/">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://img.freepik.com/free-vector/document-management-soft-abstract-illustration_335657-4988.jpg?size=626&ext=jpg&ga=GA1.1.1618985315.1719915323&semt=ais_user">
+                <div class="layer">
+                    <h3>Face recognition using machine learning with Python</h3>
+                    <p>Used machine learning with python and KNN algorithm to gather attendance using face recognition.</p>
+                    <a href="face_recognition.py"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://img.freepik.com/premium-vector/resume-writing-service-abstract-illustration_335657-5085.jpg?size=626&ext=jpg&ga=GA1.1.1618985315.1719915323&semt=ais_user">
+                <div class="layer">
+                    <h3>Aero panels for supercars or racing cars</h3>
+                    <p>Designed an aero panel for supercars or racing cars to reduce the lift and maintain an optimum drag for appropriate speed.<br>Used Fusion360 software to design and simulated the aero panels and plotted graphs and calculations for better understanding.</p>
+                    <a href="https://www.linkedin.com/in/nikita-paul-7b3572229/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://img.freepik.com/free-vector/landing-page-creation-illustration_335657-4692.jpg?size=626&ext=jpg&ga=GA1.1.1618985315.1719915323&semt=ais_user">
+                <div class="layer">
+                    <h3>My Very Own Fashion Blogging Website</h3>
+                    <p>With a deep love for style, trends, and self-expression, I’ve created this space to share my fashion journey with you. My blog is purely based on fashion advice, outfit ideas, trend predictions, shopping suggestions and lifestyle as well.So if you are a fashion enthusiast too, then come lets get our fashion game on and feel free to check my website- https://thecontourfashion.com/</p>
+                    <a href="https://thecontourfashion.com/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="images/Nikita Paul_ENG21AS0028.pdf" class="btn">See More</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>paulnikita502@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7896935457</p>
+                <div class="social-icons">
+                    <a href="https://t.me/nikitapaul"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.snapchat.com/add/paulnikita502?share_id=4MkWpEyXdhc&locale=en-US"><i class="fa-brands fa-square-snapchat"></i></a>
+                    <a href="https://www.instagram.com/nikitapaul05?igsh=b2h3NzZ3dnZkeHcy"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nikita-paul-7b3572229/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Nikita Paul_ENG21AS0028.pdf" download class="btn btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © portfolio. Made by<i class="fas fa-heart"></i> <a href="https://www.instagram.com/nikitapaul05?igsh=b2h3NzZ3dnZkeHcy">Nikita Paul</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby-ukU4gA96zn4fCPxP9XRHAfeYO2DV9tV1QngLZ0iN4H9Q-5ksgTbtpLaDtIzcGR4I/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
